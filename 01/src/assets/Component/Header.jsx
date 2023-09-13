@@ -1,11 +1,9 @@
 import React from 'react'
 
-
-const Navbar = () => {
-
+const Header = () => {
   return (
-    <div  >
-        <div className='navbar'>
+   <header>
+    <div className='navbar'>
         <div className="logo">
         <img src="Images/brand_logo.png" alt="Logo" srcset="" />
         </div>
@@ -20,8 +18,8 @@ const Navbar = () => {
        <button className='login-button'>Login</button>
        
        </div>
-       </div>
+   </header>
   )
 }
 
-export default Navbar
+export default Header
