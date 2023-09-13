@@ -1,0 +1,50 @@
+/* Style for the navigation bar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change the background color as desired */
+    padding: 10px 20px;
+  }
+  
+  /* Style for the logo in the top right corner */
+  .logo {
+    order: 2; /* To move it to the right */
+  }
+  
+  /* Style for the navigation buttons in the top center */
+  .nav-buttons {
+    order: 1; /* Center-align the buttons */
+    text-align: center;
+  }
+  
+  /* Style for individual navigation buttons */
+  .nav-button {
+    margin: 0 10px; /* Adjust spacing between buttons */
+    padding: 8px 16px;
+    background-color: #555; /* Change the button background color */
+    color: #fff; /* Change the button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  /* Style for the login button in the top right corner */
+  .login-button {
+    order: 3; /* Move it to the right */
+    margin-left: 10px; /* Add spacing between login button and other content */
+    padding: 8px 16px;
+    background-color: #ff6600; /* Change the login button background color */
+    color: #fff; /* Change the login button text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect for buttons (optional) */
+  .nav-button:hover,
+  .login-button:hover {
+    background-color: #777; /* Change the hover background color */
+  }
+  
