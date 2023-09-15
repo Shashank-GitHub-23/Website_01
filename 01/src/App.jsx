@@ -4,10 +4,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './assets/Component/Home';
 import About from './assets/Component/About';
 import './navbar.css';
+import './HeroSection.css';
 import Header from './assets/Component/Header';
 import Footer from './assets/Component/Footer';
 import Service from './assets/Component/Service';
 import Contact from './assets/Component/Contact';
+import HeroSection from './assets/Component/HeroSection';
 
 
 
@@ -18,7 +20,7 @@ function App() {
     <>
     <BrowserRouter>
      <Header />
-      
+    
       <Routes>
         < Route path="/" element={<Home />} />
         < Route path="/about" element={<About />} />
