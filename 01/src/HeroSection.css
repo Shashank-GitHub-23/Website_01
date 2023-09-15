@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+ 
+
 .heroImg{
     height: 500px;
     width: 500px;
     position: relative;
+    top: 100px;
     left: 700px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin-left: 10px;
      
 }
 
@@ -12,15 +17,15 @@
     width: 500px;
     position: relative;
     top: -400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     left: 200px;
+    
 }
-
+.heroHeading{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
 .heroPara{
-   font-size: 30px;
+   font-size: 27px;
+   font-family: 'Poppins', sans-serif;
 }
-
-.heroBox{
-    /* margin: 0 100px;
-    padding: 0;
-} */

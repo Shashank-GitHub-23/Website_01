@@ -1,9 +1,12 @@
 
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #fff; 
+  height: 60px;
 }
 
 .logo {
@@ -23,7 +26,7 @@
 .nav-button {
   margin: 0 10px;
   padding: 8px 16px;
-  background-color: #e48dd0; 
+  background-color: #78c9ff; 
   color: #ffffff;
   text-decoration: none;
   border: none;
