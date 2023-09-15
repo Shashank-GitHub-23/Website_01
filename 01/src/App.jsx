@@ -5,6 +5,7 @@ import Home from './assets/Component/Home';
 import About from './assets/Component/About';
 import './navbar.css';
 import './HeroSection.css';
+import './contact.css';
 import Header from './assets/Component/Header';
 import Footer from './assets/Component/Footer';
 import Service from './assets/Component/Service';
