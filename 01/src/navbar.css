@@ -11,6 +11,8 @@
 
 .logo {
   order: 1; /* To move it to the right */
+  height: 180px;
+  width: 180px;
 }
 
 

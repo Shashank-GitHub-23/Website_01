@@ -6,8 +6,8 @@ const Header = () => {
  
   <header>
       <div className='navbar'>
-        <div className="logo">
-          <img src="Images/brand_logo.png" alt="Logo" />
+        <div >
+          <img className="logo" src="Images/logo.jpg" alt="Logo" />
         </div>
        
         <ul className='nav-buttons'> 
