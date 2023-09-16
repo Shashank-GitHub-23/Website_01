@@ -4,21 +4,20 @@
 .heroImg{
     height: 500px;
     width: 500px;
-    position: relative;
+    position: relative; 
     top: 100px;
-    left: 700px;
-    /* border: 1px solid black; */
-    margin-left: 10px;
+    left: 750px;
+    
      
 }
 
 .heroParaBox{
     height: 500px;
     width: 500px;
-    position: relative;
-    top: -400px;
-    /* border: 1px solid black; */
-    left: 200px;
+     position: absolute;
+     top: 220px;
+     left: 250px;
+    
     
 }
 .heroHeading{
@@ -28,4 +27,11 @@
 .heroPara{
    font-size: 27px;
    font-family: 'Poppins', sans-serif;
+}
+
+.devImg{
+    height: 300px;
+    width: 600px;
+    
+ border: 1px solid black;
 }

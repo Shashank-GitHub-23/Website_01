@@ -65,6 +65,10 @@ const Contact = () => {
   };
 
   return (
+
+ <>
+    <img className="mailPic" src="./Images/mail.jpg" alt="" srcset="" />
+    <img className="mailPic2" src="./Images/mail2.jpg" alt="" srcset="" />
     <div className="contact-form-container">
       <h2 className='contact-heading'>Contact Us</h2>
       <form onSubmit={handleSubmit}>
@@ -103,6 +107,7 @@ const Contact = () => {
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
 }
 

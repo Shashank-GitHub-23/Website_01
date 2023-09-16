@@ -6,7 +6,8 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    box-shadow: 5px 5px 10px #888888;
+    background-color: #d4f3ff;
 
   }
   
@@ -51,7 +52,7 @@
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #a8e8ff;
   }
 
   .contact-heading{
@@ -62,3 +63,21 @@
    width: 500px;
   }
   
+  #name{
+    width: 500px;
+  }
+
+  .mailPic{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 150px;
+    transform: rotate(-20deg);
+  }
+  .mailPic2{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    top: 150px;
+    left: 76%;
+  }

@@ -6,6 +6,8 @@ import About from './assets/Component/About';
 import './navbar.css';
 import './HeroSection.css';
 import './contact.css';
+import './service.css';
+import './Footer.css';
 import Header from './assets/Component/Header';
 import Footer from './assets/Component/Footer';
 import Service from './assets/Component/Service';
