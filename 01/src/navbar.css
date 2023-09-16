@@ -2,9 +2,11 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #fff; 
+  align-items: center; 
   height: 60px;
+  position: sticky;
+  top: 0;
+  
   
 }
 
@@ -60,46 +62,22 @@
   cursor: pointer;
 }
 
-/* Icons Stylings & media queries */
-
-.mobile-navbar-btn{
-  display: none;
-  font-size: 4rem;
-  color: black;
-}
-
-.mobile-navbar-btn[name='close-outline']{
-  display: none;
-}
 
 @media (max-width: 767px) {
-  .mobile-navbar-btn{
-    display: inline;
-    z-index: 99;
-   
+  .navbar{
+    height: 200px;
   }
-  .close-outline{
-    display: none;
-  }
+
 
   .nav-buttons{
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background-color: #fff;
-
-    transform: translateX(100%);
     display: flex;
-   justify-content: center;
-   align-content: center;
-   flex-direction: column;
-   text-align: center;
-   
+    flex-direction: column;
+    align-items: center;
   }
-  .nav-button{
 
+  .nav-button{
+  margin: 10px 0;
   }
-  
 }
+ 
+

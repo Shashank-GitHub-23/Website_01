@@ -28,7 +28,7 @@
   input[type="email"],
   textarea {
 
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -60,11 +60,11 @@
   }
 
   #message{
-   width: 500px;
+    width: 95%;
   }
   
   #name{
-    width: 500px;
+    width: 95%;
   }
 
   .mailPic{
@@ -81,3 +81,9 @@
     top: 150px;
     left: 76%;
   }
+  @media (max-width: 767px) {
+    .contact-form-container {
+      top: 500px;
+  }
+}
+  
